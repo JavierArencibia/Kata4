@@ -22,9 +22,7 @@ public class MainFrame extends JFrame {
 
     private void createComponents() {
         this.add(createToolbar(), BorderLayout.SOUTH);
-        this.CreateContent();
-        this.add(new MoneyPanel());
-        this.add(new CurrencyPanel());
+        this.add(CreateContent());
     }
     
     private JPanel createToolbar() {
